@@ -10,11 +10,13 @@
 
 # production
 /build
+/dist
 
 # editor files
 .idea
 *.sublime*
-.vscode
+.vscode/*
+!.vscode/extensions.json
 
 # misc
 .DS_Store
