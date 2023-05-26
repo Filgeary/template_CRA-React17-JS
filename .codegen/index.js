@@ -27,8 +27,9 @@ try {
   // index.js
   fs.writeFile(`${dir}/index.js`, barrel(name), writeFileErrorHandler)
 
-  console.log(`${name} created\n`)
-  process.exit(0)
+  setTimeout(() => {
+    console.log(`\x1b[96m${name}\x1b[0m has been created!\n`)
+  }, 0)
 } catch (err) {
   console.log(err)
   process.exit(1)
