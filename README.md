@@ -1,9 +1,3 @@
 # template_CRA-React17-JS
 
-> based on CRA & React 17
-
-## Install
-
-```bash
-yarn
-```
+> minimal template based on CRA-4 & React-17
